@@ -3,86 +3,229 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Aroma Kopi, Rasa Kenangan</title>
+  <meta name="description" content="Novel 'Aroma Kopi, Rasa Kenangan' — Kisah romance dan slice of life yang hangat dan penuh makna.">
+  <title>Aroma Kopi, Rasa Kenangan — Novel by Muhamad Farel</title>
 
-  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/coffee-icon.png" type="image/png">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="nav-brand">
+        <span class="coffee-icon">☕</span>
+        <span class="brand-text">Aroma Kopi</span>
+      </div>
+      <div class="nav-links">
+        <a href="#tentang">Tentang</a>
+        <a href="#bab">Bab</a>
+        <a href="#penulis">Penulis</a>
+      </div>
+    </div>
+  </nav>
 
-  <!-- HERO -->
+  <!-- Hero Section -->
   <header class="hero">
+    <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h1>Aroma Kopi,<br>Rasa Kenangan</h1>
-      <p class="tagline">
-        Sebuah kisah yang diseduh perlahan,<br>
-        antara hujan, kopi, dan perasaan yang tak terburu-buru.
-      </p>
+      <div class="hero-text">
+        <h1 class="hero-title">
+          <span class="line-1">Aroma Kopi,</span>
+          <span class="line-2">Rasa Kenangan</span>
+        </h1>
+        <p class="hero-subtitle">
+          Sebuah novel yang diseduh perlahan, di antara rintik hujan dan obrolan tengah malam
+        </p>
+        <a href="#bab" class="hero-btn">
+          <span>Mulai Membaca</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="hero-decoration">
+        <div class="coffee-steam">
+          <div class="steam"></div>
+          <div class="steam"></div>
+          <div class="steam"></div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <!-- QUOTE -->
-  <section class="quote">
-    <p>
-      “Kadang, yang datang paling pelan<br>
-      justru tinggal paling lama.”
-    </p>
+  <!-- Quote -->
+  <section class="quote-section">
+    <div class="quote-container">
+      <div class="quote-mark">“</div>
+      <blockquote class="quote-text">
+        Kadang, yang datang paling pelan<br>
+        justru tinggal paling lama di hati.
+      </blockquote>
+      <div class="quote-author">— Aroma Kopi, Rasa Kenangan</div>
+    </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="about">
-    <h2>Tentang Novel</h2>
-    <p>
-      <em>Aroma Kopi, Rasa Kenangan</em> adalah novel bergenre
-      <strong>romance</strong> dan <strong>slice of life</strong> yang
-      mengisahkan Rei, seorang barista pendiam berusia 19 tahun, dan Arletta,
-      wanita kantoran berusia 24 tahun yang membawa luka masa lalu.
-    </p>
-    <p>
-      Dari obrolan sederhana, aroma kopi, dan hujan yang turun tanpa aba-aba,
-      hubungan mereka tumbuh perlahan—tenang, hangat, dan penuh makna.
-    </p>
+  <!-- About Novel -->
+  <section class="about-section" id="tentang">
+    <div class="section-header">
+      <h2 class="section-title">Tentang Cerita Ini</h2>
+      <div class="section-divider"></div>
+    </div>
+    
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-icon">📖</div>
+        <h3>Genre & Nuansa</h3>
+        <p><strong>Romance · Slice of Life · Slow Burn</strong></p>
+        <p>Cerita yang berkembang alami, tanpa terburu-buru, seperti seduhan kopi manual brew.</p>
+      </div>
+      
+      <div class="about-card">
+        <div class="about-icon">👥</div>
+        <h3>Tokoh Utama</h3>
+        <p><strong>Rei (19)</strong> — Barista pendiam dengan masa lalu yang disimpan rapat.</p>
+        <p><strong>Arletta (24)</strong> — Wanita kantoran yang mencari kedamaian dalam secangkir kopi.</p>
+      </div>
+      
+      <div class="about-card">
+        <div class="about-icon">🎯</div>
+        <h3>Inti Cerita</h3>
+        <p>Pertemuan tak sengaja di kafe tua, obrolan singkat yang berulang, dan ikatan yang tumbuh di antara aroma kopi dan rintik hujan.</p>
+      </div>
+    </div>
   </section>
 
-  <!-- ETALASE -->
-  <section class="chapters">
-    <h2>Etalase Cerita</h2>
-
-    <div class="chapter-card">
-      <span class="chapter-label">Tersedia</span>
-      <h3>Bab 1 — Pertemuan</h3>
-      <p>
-        Sebuah pagi yang basah oleh hujan,
-        secangkir kopi panas,
-        dan pertemuan yang tak pernah direncanakan.
-      </p>
-
-      <a 
-        href="drafts/aroma_kopi_rasa_kenangan_bab1.pdf"
-        target="_blank"
-        class="btn"
-      >
-        ☕ Baca Bab 1
-      </a>
+  <!-- Chapters -->
+  <section class="chapters-section" id="bab">
+    <div class="section-header">
+      <h2 class="section-title">Etalase Cerita</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle">Setiap bab seperti secangkir kopi — perlu dinikmati pelan-pelan</p>
     </div>
 
-    <p class="coming-soon">
-      Bab selanjutnya sedang diseduh dengan hati.
-    </p>
+    <div class="chapter-main">
+      <div class="chapter-card">
+        <div class="chapter-header">
+          <span class="chapter-badge">Tersedia Gratis</span>
+          <div class="chapter-number">Bab 01</div>
+        </div>
+        
+        <h3 class="chapter-title">Pertemuan di Tengah Hujan</h3>
+        
+        <div class="chapter-excerpt">
+          <p>"Hari itu hujan turun tanpa permisi. Rei membersihkan mesin espresso untuk kesekian kalinya ketika bel pintu berbunyi. Seorang wanita dengan jas hujan basah masuk, wajahnya lesu tetapi matanya mencari sesuatu—atau seseorang."</p>
+        </div>
+        
+        <div class="chapter-meta">
+          <div class="meta-item">
+            <span class="meta-label">📖 Panjang</span>
+            <span class="meta-value">4.200 kata</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">⏱️ Baca</span>
+            <span class="meta-value">15 menit</span>
+          </div>
+        </div>
+        
+        <a href="drafts/aroma_kopi_rasa_kenangan_bab1.pdf" class="chapter-btn" target="_blank">
+          <span>Baca Bab Lengkap</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+            <polyline points="15 3 21 3 21 9"/>
+            <line x1="10" y1="14" x2="21" y2="3"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="upcoming-chapters">
+      <h4>Sedang Dalam Penulisan</h4>
+      <div class="upcoming-list">
+        <div class="upcoming-item">
+          <div class="upcoming-status">✍️ Dalam Proses</div>
+          <div class="upcoming-title">Bab 2 — Percakapan Pertama</div>
+        </div>
+        <div class="upcoming-item">
+          <div class="upcoming-status">📝 Rencana</div>
+          <div class="upcoming-title">Bab 3 — Nama di Cangkir Kopi</div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <p>
-      Ditulis dengan tenang oleh<br>
-      <strong>Muhamad Farel Rizky Akbar</strong>
-    </p>
-    <p class="footer-note">
-      © 2026 — Aroma Kopi, Rasa Kenangan
-    </p>
+  <!-- Author -->
+  <section class="author-section" id="penulis">
+    <div class="author-container">
+      <div class="author-image">
+        <!-- Placeholder for author photo -->
+        <div class="image-placeholder">
+          <span>MF</span>
+        </div>
+      </div>
+      <div class="author-info">
+        <h2 class="author-name">Muhamad Farel Rizky Akbar</h2>
+        <p class="author-bio">
+          Penulis muda yang percaya bahwa cerita terbaik lahir dari pengamatan sederhana. 
+          Menyukai kopi hitam tanpa gula, hujan sore, dan percakapan yang berarti.
+        </p>
+        <div class="author-quote">
+          "Menulis bagiku seperti menyeduh kopi — butuh kesabaran, perhatian, dan cinta."
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="coffee-icon">☕</span>
+          <span>Aroma Kopi, Rasa Kenangan</span>
+        </div>
+        <p class="footer-tagline">
+          Cerita yang disajikan hangat, seperti kopi di pagi hari.
+        </p>
+      </div>
+      
+      <div class="footer-links">
+        <div class="link-group">
+          <h4>Navigasi</h4>
+          <a href="#tentang">Tentang Novel</a>
+          <a href="#bab">Baca Bab</a>
+          <a href="#penulis">Tentang Penulis</a>
+        </div>
+        <div class="link-group">
+          <h4>Status</h4>
+          <span>📖 Dalam Penulisan</span>
+          <span>🎯 Target: 10 Bab</span>
+          <span>📅 Update: Mingguan</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2024 Aroma Kopi, Rasa Kenangan. Semua hak cipta dilindungi.</p>
+      <p class="footer-note">
+        Dibuat dengan ❤️ dan ☕ oleh Muhamad Farel Rizky Akbar
+      </p>
+    </div>
   </footer>
+
+  <!-- Floating Coffee Button -->
+  <button class="floating-btn" onclick="window.open('drafts/aroma_kopi_rasa_kenangan_bab1.pdf', '_blank')">
+    <span>☕</span>
+    <span class="floating-text">Baca Sekarang</span>
+  </button>
 
 </body>
 </html>
